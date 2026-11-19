@@ -1,0 +1,1162 @@
+{
+  "scope": "POI understanding only; supplemental evaluation on previously exposed Final",
+  "sources_each": 68,
+  "updates_each": 136,
+  "orders": [
+    831,
+    832,
+    833
+  ],
+  "questions": 1154,
+  "numeric_groups": 601,
+  "supervision": "reference-labelled answer SFT",
+  "real_demonstrations": 8,
+  "scores": {
+    "real_n68_s831": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1003,
+          "compatible": 1021,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 515,
+            "compatible": 515,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 227,
+            "compatible": 243,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 261,
+            "compatible": 263,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 119,
+            "compatible": 119,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 8,
+            "compatible": 8,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 172,
+            "compatible": 190,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1002,
+          "compatible": 1021,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 520,
+            "compatible": 520,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 231,
+            "compatible": 247,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 251,
+            "compatible": 254,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 116,
+            "compatible": 116,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 7,
+            "compatible": 7,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 163,
+            "compatible": 182,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "old_n68_s831": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1026,
+          "compatible": 1042,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 545,
+            "compatible": 546,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 222,
+            "compatible": 235,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 259,
+            "compatible": 261,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 116,
+            "compatible": 116,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 11,
+            "compatible": 11,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 170,
+            "compatible": 186,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1025,
+          "compatible": 1042,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 537,
+            "compatible": 537,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 226,
+            "compatible": 242,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 262,
+            "compatible": 263,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 121,
+            "compatible": 121,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 13,
+            "compatible": 13,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 168,
+            "compatible": 185,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "current_n68_s831": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1033,
+          "compatible": 1051,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 545,
+            "compatible": 545,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 229,
+            "compatible": 245,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 259,
+            "compatible": 261,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 116,
+            "compatible": 116,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 14,
+            "compatible": 14,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 166,
+            "compatible": 184,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1025,
+          "compatible": 1040,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 533,
+            "compatible": 533,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 235,
+            "compatible": 248,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 257,
+            "compatible": 259,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 120,
+            "compatible": 120,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 14,
+            "compatible": 14,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 168,
+            "compatible": 183,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "real_n68_s832": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1041,
+          "compatible": 1063,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 536,
+            "compatible": 536,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 241,
+            "compatible": 260,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 264,
+            "compatible": 267,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 124,
+            "compatible": 124,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 2,
+            "compatible": 2,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 179,
+            "compatible": 201,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1041,
+          "compatible": 1058,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 536,
+            "compatible": 536,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 239,
+            "compatible": 255,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 266,
+            "compatible": 267,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 121,
+            "compatible": 121,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 4,
+            "compatible": 4,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 179,
+            "compatible": 196,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "old_n68_s832": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1049,
+          "compatible": 1067,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 550,
+            "compatible": 550,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 233,
+            "compatible": 248,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 266,
+            "compatible": 269,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 123,
+            "compatible": 123,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 13,
+            "compatible": 13,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 171,
+            "compatible": 189,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1056,
+          "compatible": 1073,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 547,
+            "compatible": 547,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 245,
+            "compatible": 258,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 264,
+            "compatible": 268,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 124,
+            "compatible": 124,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 15,
+            "compatible": 15,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 174,
+            "compatible": 191,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "current_n68_s832": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1054,
+          "compatible": 1075,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 539,
+            "compatible": 539,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 239,
+            "compatible": 258,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 276,
+            "compatible": 278,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 121,
+            "compatible": 121,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 15,
+            "compatible": 15,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 177,
+            "compatible": 198,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1052,
+          "compatible": 1071,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 543,
+            "compatible": 543,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 244,
+            "compatible": 260,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 265,
+            "compatible": 268,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 122,
+            "compatible": 122,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 15,
+            "compatible": 15,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 177,
+            "compatible": 196,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "real_n68_s833": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1007,
+          "compatible": 1021,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 510,
+            "compatible": 510,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 239,
+            "compatible": 251,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 258,
+            "compatible": 260,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 118,
+            "compatible": 118,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 4,
+            "compatible": 4,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 176,
+            "compatible": 190,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1021,
+          "compatible": 1036,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 532,
+            "compatible": 532,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 239,
+            "compatible": 250,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 250,
+            "compatible": 254,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 117,
+            "compatible": 117,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 2,
+            "compatible": 2,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 171,
+            "compatible": 186,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "old_n68_s833": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1028,
+          "compatible": 1043,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 533,
+            "compatible": 533,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 234,
+            "compatible": 247,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 261,
+            "compatible": 263,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 117,
+            "compatible": 117,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 14,
+            "compatible": 14,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 175,
+            "compatible": 190,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1040,
+          "compatible": 1062,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 544,
+            "compatible": 544,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 237,
+            "compatible": 255,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 259,
+            "compatible": 263,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 118,
+            "compatible": 118,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 15,
+            "compatible": 15,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 170,
+            "compatible": 192,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    },
+    "current_n68_s833": {
+      "original": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1022,
+          "compatible": 1039,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 532,
+            "compatible": 532,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 229,
+            "compatible": 244,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 261,
+            "compatible": 263,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 115,
+            "compatible": 115,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 14,
+            "compatible": 14,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 170,
+            "compatible": 187,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      },
+      "joint": {
+        "overall": {
+          "n": 1154,
+          "groups": 601,
+          "correct": 1025,
+          "compatible": 1041,
+          "valid": 1154,
+          "capped": 0
+        },
+        "metrics": {
+          "distance": {
+            "n": 589,
+            "groups": 571,
+            "correct": 533,
+            "compatible": 533,
+            "valid": 589,
+            "capped": 0
+          },
+          "waiting_time": {
+            "n": 274,
+            "groups": 272,
+            "correct": 238,
+            "compatible": 252,
+            "valid": 274,
+            "capped": 0
+          },
+          "charging_time": {
+            "n": 291,
+            "groups": 282,
+            "correct": 254,
+            "compatible": 256,
+            "valid": 291,
+            "capped": 0
+          }
+        },
+        "subgroups": {
+          "target_tail": {
+            "n": 129,
+            "groups": 107,
+            "correct": 119,
+            "compatible": 119,
+            "valid": 129,
+            "capped": 0
+          },
+          "target_NaN": {
+            "n": 16,
+            "groups": 6,
+            "correct": 13,
+            "compatible": 13,
+            "valid": 16,
+            "capped": 0
+          },
+          "target_tie": {
+            "n": 208,
+            "groups": 193,
+            "correct": 169,
+            "compatible": 185,
+            "valid": 208,
+            "capped": 0
+          }
+        }
+      }
+    }
+  },
+  "means_percent": {
+    "original": {
+      "real": 88.12824956672443,
+      "old": 89.63027151935296,
+      "current": 89.80358174465626
+    },
+    "joint": {
+      "real": 88.50375505488157,
+      "old": 90.15020219526285,
+      "current": 89.60138648180242
+    }
+  }
+}

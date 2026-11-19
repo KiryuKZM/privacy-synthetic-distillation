@@ -1,0 +1,24 @@
+# Local/private assets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+runs/
+artifacts/
+logs/
+vendor/
+*.local.json
+*.jsonl
+*.safetensors
+*.pt
+*.pth
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key

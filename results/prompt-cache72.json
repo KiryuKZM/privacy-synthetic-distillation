@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETE",
+  "output": {
+    "bf16": {
+      "dedup8": {
+        "correct": 66,
+        "valid": 72,
+        "capped": 0,
+        "n": 72,
+        "median_prompt_tokens": 3851.0,
+        "median_request_wall_seconds": 0.18563963600900024,
+        "median_cached_tokens": 0.0,
+        "median_ttft_seconds": 0.08406627178192139,
+        "paired": {
+          "gains": 1,
+          "losses": 1,
+          "changed_answers": 3,
+          "changed_token_sequences": 3
+        }
+      },
+      "same_cache_full8": {
+        "correct": 66,
+        "valid": 72,
+        "capped": 0,
+        "n": 72,
+        "median_prompt_tokens": 6000.0,
+        "median_request_wall_seconds": 0.24246642651269212,
+        "median_cached_tokens": 0.0,
+        "median_ttft_seconds": 0.14070451259613037,
+        "paired": {
+          "gains": 0,
+          "losses": 0,
+          "changed_answers": 0,
+          "changed_token_sequences": 0
+        }
+      },
+      "cache_hits": 0,
+      "warm_request_median_seconds": null
+    },
+    "bf16-cache": {
+      "dedup8": {
+        "correct": 66,
+        "valid": 72,
+        "capped": 0,
+        "n": 72,
+        "median_prompt_tokens": 3851.0,
+        "median_request_wall_seconds": 0.17479691648622975,
+        "median_cached_tokens": 3264.0,
+        "median_ttft_seconds": 0.07704329490661621,
+        "paired": {
+          "gains": 1,
+          "losses": 1,
+          "changed_answers": 3,
+          "changed_token_sequences": 3
+        }
+      },
+      "same_cache_full8": {
+        "correct": 66,
+        "valid": 72,
+        "capped": 0,
+        "n": 72,
+        "median_prompt_tokens": 6000.0,
+        "median_request_wall_seconds": 0.18246132548665628,
+        "median_cached_tokens": 5440.0,
+        "median_ttft_seconds": 0.08041131496429443,
+        "paired": {
+          "gains": 0,
+          "losses": 0,
+          "changed_answers": 0,
+          "changed_token_sequences": 0
+        }
+      },
+      "cache_hits": 70,
+      "warm_request_median_seconds": 0.174766352516599
+    },
+    "cache_effect_on_dedup8": {
+      "gains": 0,
+      "losses": 0,
+      "changed_answers": 0,
+      "changed_token_sequences": 0
+    }
+  },
+  "independent_recount": 144
+}

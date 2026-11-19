@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-19",
+  "sources": [
+    {
+      "local_source": "runs/2026-11-09-ust-final-matched68-v1/results.json",
+      "sha256": "3b23e42583a42c187df4c9479c2d27805c1ad7c287298a7faaba332f7283c939"
+    },
+    {
+      "local_source": "runs/2026-11-11-ust-quantization-v1/results.json",
+      "sha256": "40b0a4b36e6cf495f3d2eeb920b590ca065cf287ba566c7366d4729001374d38"
+    },
+    {
+      "local_source": "runs/2026-11-10-ust-fresh100-zero-demo-v1/student-synth8-cap1024-v1/paired-results.json",
+      "sha256": "d4397c306785cdbb045c66e5487e72eed543bec93a2bbae8cfab15021014a567"
+    },
+    {
+      "local_source": "runs/2026-11-11-ust-efficient-inference-v1/vllm-dedup8-v1/results.json",
+      "sha256": "363a0ea044b697952f544f86b08ab144537a1c68c56036d666e71b988539a9df"
+    },
+    {
+      "local_source": "runs/2026-11-11-ust-original-baselines-v1/first200-output-audit-20261112/summary.json",
+      "sha256": "f7f0f45904923523ba48b08cf33b5655991e917260bc27ff2dbfe2c44e4b51af"
+    },
+    {
+      "local_source": "runs/2026-11-08-ust-scale-teacher-v1/single-recovery-v1/shared-execution-proof.json",
+      "sha256": "5169e32036e1819441fddf6c446b11f1aabc5eee40684b25756cd9683d7a0b5a"
+    },
+    {
+      "local_source": "runs/2026-11-08-ust-scale-teacher-v1/single-recovery-v1/training-comparison.json",
+      "sha256": "e146657fbf6806342f0d20e074fe260e9afac41d0b5e2038991d038113872ed5"
+    }
+  ],
+  "publication": "Aggregate results only. Original rows, predictions, tokens and checkpoints stay in the local research archive."
+}

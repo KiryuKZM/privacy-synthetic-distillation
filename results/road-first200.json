@@ -1,0 +1,39 @@
+{
+  "n": 200,
+  "counts": {
+    "reference_mismatch": 50,
+    "invalid": 131,
+    "correct": 19
+  },
+  "valid_accuracy": 0.2753623188405797,
+  "official_accuracy": 0.095,
+  "attempts": 517,
+  "finish_counts": {
+    "stop": 69,
+    "length": 448
+  },
+  "output_tokens": 3863075,
+  "capped_output_tokens": 3670016,
+  "all131_invalid_exhaust_three_8192_attempts": true,
+  "embedded_JSON_rescues": [],
+  "official_replay": "ALL_200_MATCH_ALL_ATTEMPTS_CONSUMED",
+  "independent_parser": "ALL_200_MATCH",
+  "by_stage": {
+    "stage1": {
+      "reference_mismatch": 36,
+      "invalid": 31,
+      "correct": 15
+    },
+    "stage2": {
+      "reference_mismatch": 14,
+      "invalid": 100,
+      "correct": 4
+    }
+  },
+  "limitations": [
+    "Reference mismatch does not independently certify author label optimality",
+    "Conditional accuracy among valid outputs is selected subset, not recovered full200 accuracy",
+    "Underlying cause of repetition not isolated: model/prompt/decoding/backend remain hypotheses",
+    "No GPU/API calls; running experiment unchanged"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "primary": [
+    "ust_scale_20261108",
+    "ust_scale_teacher_20261108",
+    "ust_final_matched68_20261109",
+    "ust_joint_generator_repair_20261107",
+    "ust_fresh72_synth8_20261110",
+    "ust_quantization_20261111",
+    "ust_serving_quantization_20261111",
+    "ust_vllm_dedup8_20261111",
+    "audit_ust_road_first200_20261112",
+    "ust_original_baseline_runtime_20261111"
+  ],
+  "scripts": 120,
+  "note": "Historical entrypoints require the original local run manifests, datasets and checkpoints. Read docs/reproduce.md before execution."
+}

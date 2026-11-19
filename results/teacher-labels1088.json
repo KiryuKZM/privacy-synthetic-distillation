@@ -1,0 +1,13 @@
+{
+  "initial_calls": 1088,
+  "initial_valid": 1087,
+  "initial_correct_vs_rule": 1087,
+  "approved_extra_calls": 1,
+  "final_valid": 1088,
+  "final_targets_identical_to_rule": true,
+  "rotated_views": 4352,
+  "proof_status": "EXACT_INPUT_AND_LABEL_EQUIVALENCE",
+  "additional_teacher_fits": 0,
+  "independent_teacher_vs_oracle_experiment": false,
+  "shared_execution_completion_file_present": false
+}

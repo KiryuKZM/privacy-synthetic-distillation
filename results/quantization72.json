@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE",
+  "summaries": {
+    "bf16": {
+      "n": 72,
+      "correct": 66,
+      "valid": 72,
+      "capped": 0,
+      "quantized_layers": 0,
+      "peak_cuda_allocated_bytes": 5003791872,
+      "peak_cuda_reserved_bytes": 5039456256,
+      "weights_bytes": 4426558864,
+      "median_seconds": 0.28199426748324186
+    },
+    "int8": {
+      "n": 72,
+      "correct": 66,
+      "valid": 72,
+      "capped": 0,
+      "quantized_layers": 284,
+      "peak_cuda_allocated_bytes": 3339880960,
+      "peak_cuda_reserved_bytes": 3560964096,
+      "weights_bytes": 2729950516,
+      "median_seconds": 0.8089102224330418
+    },
+    "nf4": {
+      "n": 72,
+      "correct": 61,
+      "valid": 72,
+      "capped": 0,
+      "quantized_layers": 284,
+      "peak_cuda_allocated_bytes": 2559796736,
+      "peak_cuda_reserved_bytes": 2592079872,
+      "weights_bytes": 1983147188,
+      "median_seconds": 0.32148309651529416
+    },
+    "historical_unmerged": {
+      "n": 72,
+      "correct": 66,
+      "valid": 72,
+      "capped": 0
+    }
+  },
+  "contrasts": {
+    "historical_unmerged_to_bf16": {
+      "gains": 0,
+      "losses": 0,
+      "changed_answer": 0,
+      "changed_tokens": 0
+    },
+    "bf16_to_int8": {
+      "gains": 1,
+      "losses": 1,
+      "changed_answer": 2,
+      "changed_tokens": 2
+    },
+    "bf16_to_nf4": {
+      "gains": 0,
+      "losses": 5,
+      "changed_answer": 5,
+      "changed_tokens": 5
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[submodule "vendor/ctgan"]
+	path = vendor/ctgan
+	url = https://github.com/sdv-dev/CTGAN.git
+[submodule "vendor/tab-ddpm"]
+	path = vendor/tab-ddpm
+	url = https://github.com/yandex-research/tab-ddpm.git
+[submodule "vendor/tabsyn"]
+	path = vendor/tabsyn
+	url = https://github.com/amazon-science/tabsyn.git
+[submodule "vendor/diffusion-ts"]
+	path = vendor/diffusion-ts
+	url = https://github.com/Y-debug-sys/Diffusion-TS.git
+[submodule "vendor/directo"]
+	path = vendor/directo
+	url = https://github.com/acarballocastro/DIRECTO.git
+[submodule "vendor/dataenvgym"]
+	path = vendor/dataenvgym
+	url = https://github.com/codezakh/DataEnvGym.git
+	branch = master
+[submodule "vendor/streamsynth"]
+	path = vendor/streamsynth
+	url = https://github.com/a18538308316-bot/StreamSynth.git
+	branch = main
